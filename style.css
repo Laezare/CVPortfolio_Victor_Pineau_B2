@@ -1,0 +1,171 @@
+
+
+html , body{
+	scroll-behavior: smooth;
+	font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	margin: 0;
+}
+
+.main-title {
+	color: #00B579;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+/*vertical navbar*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 6%;
+	background-color: #000000;
+	height: 100%; /* Full height */
+	position: fixed; /* Make it stick, even on scroll */
+	overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+
+li {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+li a {
+	display: block;
+	color: #ffffff;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+
+li:last-child {
+	border-bottom: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.card {
+	margin-top: -30%;
+	margin-left: 40%;
+	width: 20%; 
+	height : 20%;
+	background-color: rgb(245, 245, 245, 0);
+}
+
+.card-presentation {
+	width: 100%; 
+	height : 700px;
+}
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.scroller {
+	width: 100%;
+	height: 500px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	scrollbar-color: #5e5e5e #000000;
+	scrollbar-width: thin;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+/*compétences barres*/
+.progress{
+	background-color:grey; 
+}
+
+/*about*/
+.about {
+	margin-top:-1.5em;
+	padding-bottom: 1.5em;
+	background-color: black;
+	color: white;
+}
+
+.info {
+	display:inline-block;
+	background-color: #00B579;
+	color: black;
+	padding-left: 1em;
+	padding-right: 1em
+}
+
+.card-image {
+	width: 20%;
+	height: 20%;
+}
+
+.contact100-form-title {
+	display: block;
+	width: 100%;
+	font-size: 39px;
+	color: white;
+	line-height: 1.2;
+	text-align: left;
+	padding-bottom: 44px;
+}
+
+#contact {
+	background-color: #2B2B2B;
+}
+
+.button {
+	margin-top: 1em;
+	border-radius: 4px;
+	background-color:#00B579; 
+	width: 7em;
+}
+
+.label-input100 {
+	font-family: Poppins-Regular;
+	font-size: 15px;
+	color: #999999;
+	line-height: 1.5;
+	padding-left: 5px;
+}
+
+.container-contact100 {
+	width: 100%;  
+	min-height: 100vh;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+}
+
+.contact {
+	color:#00B579;
+}
